@@ -1,0 +1,77 @@
+body {
+	background-image: url(background.jfif);
+}
+
+h1 {
+	font-family: fantasy; 
+	color: rgb(255, 234, 134);
+	text-align: center;
+	font-size: 85px;
+
+}
+
+h3 {
+	text-align: center;
+	font-family: 'Cinzel', serif;
+	color: white;
+}
+
+.fotos-iniciales {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+
+.fotos-iniciales img {
+	width: 500px;
+	height: 280px;
+	display: flex;
+	transition: all 1s;
+}
+
+.fotos-iniciales img:hover {
+	transform:scale(1.1);
+}
+
+.title {
+	font-size: 65px;
+	color: rgb(255, 245, 0);
+	text-align: center;
+	border: 3px solid rgb(220, 24, 34);
+}
+.quote {
+	color: white;
+	font-size: 35px;
+	font-style: italic;
+	text-align: center;
+}
+
+
+.synopsis {
+	color: white;
+	padding-left: 20px;
+	padding-right: 20px;
+	text-align: center;
+	font-size: 25px;
+}
+
+.cover {
+	height: 510px;
+	width: 330px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+	transition: all 1s;
+}
+
+img:hover {
+	transform:scale(1.1);
+}
+
+.dune {
+	text-align: center;
+}
+
+
